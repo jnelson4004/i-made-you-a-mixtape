@@ -1,51 +1,11 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>I'm Making You a Mixtape</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundCloud Embed Test</title>
 </head>
 <body>
-    <h1>Spotify Web Playback SDK Quick Start</h1>
-    <button id="togglePlay">Toggle Play</button>
-
-    <script src="https://sdk.scdn.co/spotify-player.js"></script>
-    <script>
-        window.onSpotifyWebPlaybackSDKReady = () => {
-            const token = 'BQDZl1LYoTWucpdTFL-zOPKXzJtjCIbrktDoOkwPMrydvK3ImiWf4l7J4TOyAIerfsu-IgbC8s0aUQ3hEDB4yWBiNyvykxdmswkxR5YORcAmyfwjh53-3opfqvbfYgqE0QtGFtfqgYwgfY2xxRjTOOsaXJtd2MHmPYkLHTUDHT88UcIPAX27MgzDxBB-X_4kN4ONbMI';
-            const player = new Spotify.Player({
-                name: 'Web Playback SDK Quick Start Player',
-                getOAuthToken: cb => { cb(token); },
-                volume: 0.5
-            });
-
-            // Ready
-            player.addListener('ready', ({ device_id }) => {
-                console.log('Ready with Device ID', device_id);
-            });
-
-            // Not Ready
-            player.addListener('not_ready', ({ device_id }) => {
-                console.log('Device ID has gone offline', device_id);
-            });
-
-            player.addListener('initialization_error', ({ message }) => {
-                console.error(message);
-            });
-
-            player.addListener('authentication_error', ({ message }) => {
-                console.error(message);
-            });
-
-            player.addListener('account_error', ({ message }) => {
-                console.error(message);
-            });
-
-            document.getElementById('togglePlay').onclick = function() {
-              player.togglePlay();
-            };
-
-            player.connect();
-        }
-    </script>
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1348846825&color=%233e6b50&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-550880858" title="Jack Nelson" target="_blank" style="color: #cccccc; text-decoration: none;">Jack Nelson</a> · <a href="https://soundcloud.com/user-550880858/sets/bucket" title="Bucket" target="_blank" style="color: #cccccc; text-decoration: none;">Bucket</a></div>
 </body>
 </html>
