@@ -34,7 +34,6 @@ Find the free data you will use and THEN build the site around what's available.
 
 * Have a polished UI.
 
-!!! !!! !!! !!! MY SKILL WOULD BE USED BEST HERE. !!! !!! !!! !!!
 * Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 AND HERE
 * Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
