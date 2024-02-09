@@ -12,7 +12,17 @@
     <title>I Made You a Mixtape</title>
 </head>
 
-<body>
+<body>    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Time Travel to the 90's</h4>
+            <p>Lorem ipsum - how to included in here to operate the page</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Gettin' jiggy wit it!</a>
+        </div>
+    </div>
 <!--Nav Bar-->
     <nav class="light-blue lighten-1" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="assets/images/mixtape_sm.jpg"></a>
@@ -148,5 +158,14 @@
     <script src="assets/songs/Haddaway - What Is Love [Official].mp3"></script>
     <script src="assets/songs/Foo Fighters - Everlong.mp3"></script>
     <script src="./assets/js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".modal").modal();
+            $("#modal1").modal("open");
+            $("#cls").click(function() {
+                $("#modal1").modal("close");
+            });
+        });
+    </script>
 </body> 
 </html>
