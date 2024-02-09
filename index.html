@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <title>Starter Template - Materialize</title>
-
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="./assets/css/materalize.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>I Made You a Mixtape</title>
 </head>
 
 <body>
+<<<<<<< HEAD
 
     <!-- Modal Trigger -->
     <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
@@ -27,89 +29,98 @@
         </div>
     </div>
     
+=======
+<!--Nav Bar-->
+>>>>>>> aee7f04ae4f6d65623git f860cd9f5062967142a37e
     <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="assets/images/mixtape_sm.jpg"></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
+    <!--Just an idea on how to use the Links...we could also remove them-->
+                <li><a href="#">Take the Love Quiz</a></li>
             </ul>
-
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Navbar Link</a></li>
+                <li><a href="#">Link</a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+
+<!--Hero Banner-->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <br><br>
-            <h1 class="header center orange-text">Starter Template</h1>
+            <h1 class="header center orange-text">I Made You A Mixtape</h1>
             <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                <h5 class="header col s12 light">For Valentine's Day</h5>
             </div>
             <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button"
-                    class="btn-large waves-effect waves-light orange">Get Started</a>
+                <!--Placeholder for link = #-->
+                <a href="#" id="download-button"
+                    class="btn-large waves-effect waves-light orange">Play Some Songs</a>
             </div>
             <br><br>
-
         </div>
     </div>
 
-
+<!--Main Section Div-->
     <div class="container">
         <div class="section">
-
-            <!--   Icon Section   -->
             <div class="row">
+                
+                <!--   Img API Container   -->
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                        <h5 class="center">Speeds up development</h5>
-
-                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-                            incorporate our custom components. Additionally, we refined animations and transitions to
-                            provide a smoother experience for developers.</p>
+                        <h2 class="center light-blue-text"><i class="material-icons">
+                            <!--Img Icon here-->
+                        </i></h2>
+                        <h5 class="center">Maybe Image API is contained here</h5>
+                    <!--Placeholder for actual content-->
+                        <p class="light">Can we make a button for the user to scroll through pics?</p>
                     </div>
                 </div>
 
+                <!--Music Player Container-->
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                        <h5 class="center">User Experience Focused</h5>
-
-                        <p class="light">By utilizing elements and principles of Material Design, we were able to create
-                            a framework that incorporates components and animations that provide more feedback to users.
-                            Additionally, a single underlying responsive system across all platforms allow for a more
-                            unified user experience.</p>
+                        <h2 class="center light-blue-text"><i class="material-icons">
+                        <!--Tape Icon here-->
+                        </i></h2>
+                        <h5 class="center">Maybe the Songs go here</h5>
+                        <p class="light">Jacks Buttons:</p>
+                        <span class="card-title">sound board test</span>
+                        <p>gatorade</p>
+                            <a class="btn" onclick="sound()" id="song-one">try me</a>
+                            <a class="btn" id="song-two">broke</a>
+                            <a class="btn" id="song-three">broke</a>
+                            <a class="btn" id="song-four">broke</a>
+                            <a class="btn" id="song-five">broke</a>
+                            <a class="btn" id="song-six">broke</a>
+                            <a class="btn" id="song-seven">broke</a>
+                            <a class="btn" id="song-eight">broke</a>
                     </div>
                 </div>
-
+                <!--Love Quiz API-->
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                        <h5 class="center">Easy to work with</h5>
-
-                        <p class="light">We have provided detailed documentation as well as specific code examples to
-                            help new users get started. We are also always open to feedback and can answer any questions
-                            a user may have about Materialize.</p>
+                        <h2 class="center light-blue-text"><i class="material-icons">
+                            <!--Heart Icon here-->
+                        </i></h2>
+                        <h5 class="center">Maybe the Love Quiz API goes here</h5>
+                        <p class="light">Love Quiz Container</p>
                     </div>
                 </div>
             </div>
-
         </div>
         <br><br>
     </div>
 
+    <!--Footer Container -->
     <footer class="page-footer orange">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like
-                        it's our full time job. Any amount would help support and continue development on this project
-                        and is greatly appreciated.</p>
-
-
+                    <h5 class="white-text">Links to fun websites?</h5>
+                    <p class="grey-text text-lighten-4">Some 90s stuff</p>
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Settings</h5>
@@ -133,19 +144,18 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                Made with <a class="orange-text text-lighten-3"
+                    href="http://materializecss.com">Materialize</a>
             </div>
         </div>
     </footer>
-
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="./assets/js/materalize.js"></script>
     <script src="./assets/js/init.js"></script>
-
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/songs/BLACK OPS 2 - OFFICIAL MULTIPLAYER MENU THEME SONG (HD).mp3"></script>
+    <script src="./assets/js/style.js"></script>
+</body> 
 </html>
-
-
