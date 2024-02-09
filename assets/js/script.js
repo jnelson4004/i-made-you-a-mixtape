@@ -7,17 +7,17 @@ function sound(){
     snd.play()//plays the sound
 }
 
-// Love Quiz API
-fetch("https://love-calculator.p.rapidapi.com/getPercentage?fname=John&sname=Alice", {
-"method": "GET",
-"headers": {
-"x-rapidapi-key": "input-your-custom-key-value-here",
-"x-rapidapi-host": "love-calculator.p.rapidapi.com"
-}
-})
-.then(response => {
-console.log(response);
-})
-.catch(err => {
-console.error(err);
-});
+// // Love Quiz API
+// fetch("https://love-calculator.p.rapidapi.com/getPercentage?fname=John&sname=Alice", {
+// "method": "GET",
+// "headers": {
+// "x-rapidapi-key": "input-your-custom-key-value-here",
+// "x-rapidapi-host": "love-calculator.p.rapidapi.com"
+// }
+// })
+// .then(response => {
+// console.log(response);
+// })
+// .catch(err => {
+// console.error(err);
+// });
