@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+/* main {
+    background-image: url("/assets/images/cassetteplayer_lg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fff;
+}  */
+
 .icon-block {
     padding: 0 15px;
 }
@@ -13,3 +21,4 @@
 .icon-block .material-icons {
     font-size: inherit;
 }
+
