@@ -6065,12 +6065,11 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .modal .modal-close {
-    cursor: pointer;
+    cursor:grabbing;
 }
 
 .modal .modal-footer {
     border-radius: 0 0 2px 2px;
-    background-color: #fafafa;
     padding: 4px 6px;
     height: 56px;
     width: 100%;
@@ -6081,6 +6080,8 @@ body.keyboard-focused .dropdown-content li:focus {
 .modal .modal-footer .btn-large,
 .modal .modal-footer .btn-small,
 .modal .modal-footer .btn-flat {
+    background-color: #00E676;
+    font-family: fantasy;
     margin: 6px 0;
 }
 
@@ -6112,6 +6113,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .modal.modal-fixed-footer .modal-footer {
+    color: #000;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     position: absolute;
     bottom: 0;
