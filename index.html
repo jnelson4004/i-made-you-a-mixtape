@@ -19,11 +19,11 @@
     <!-- Modal Structure -->
     <div id="modal1" class="modal">
         <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
+            <h4>Time Travel to the 90's</h4>
+            <p>Lorem ipsum - how to included in here to operate the page</p>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Gettin' jiggy wit it!</a>
         </div>
     </div>
 <!--Nav Bar-->
@@ -150,7 +150,16 @@
     <script src="./assets/js/materalize.js"></script>
     <script src="./assets/js/init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/songs/BLACK OPS 2 - OFFICIAL MULTIPLAYER MENU THEME SONG (HD).mp3"></script>
+    <script src="./assets/songs/BLACK OPS 2 - OFFICIAL MULTIPLAYER MENU THEME SONG (HD).mp3"></script>
     <script src="./assets/js/style.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".modal").modal();
+            $("#modal1").modal("open");
+            $("#cls").click(function() {
+                $("#modal1").modal("close");
+            });
+        });
+    </script>
 </body> 
 </html>
