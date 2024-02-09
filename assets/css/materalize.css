@@ -6050,12 +6050,18 @@ body.keyboard-focused .dropdown-content li:focus {
 .modal h2,
 .modal h3,
 .modal h4 {
+    color:yellow;
+    font-family:fantasy;
     margin-top: 0;
     text-align: center;
 }
 
 .modal .modal-content {
+    background-color: #d500f9;
     padding: 24px;
+    text-align: center;
+    font-weight: bold;
+    color:cyan;
 }
 
 .modal .modal-close {
