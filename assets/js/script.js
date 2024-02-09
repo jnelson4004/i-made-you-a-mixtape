@@ -1,4 +1,4 @@
-// Music Player
+
 function soundOne() {
     var snd = new Audio("assets/songs/blink-182 - All The Small Things (Official Music Video).mp3")//wav is also supported
     snd.play()//plays the sound
