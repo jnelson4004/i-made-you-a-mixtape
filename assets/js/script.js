@@ -1,3 +1,4 @@
+// Music Player
 function soundOne() {
     var snd = new Audio("assets/songs/blink-182 - All The Small Things (Official Music Video).mp3")//wav is also supported
     snd.play()//plays the sound
@@ -43,12 +44,4 @@ function soundNine() {
     snd.play()//plays the sound
 }
 
-// Love Quiz API
-const url = 'https://love-calculator.p.rapidapi.com/getPercentage?sname=Alice&fname=John';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '618c1f6eb0msh893d6f2ef05e110p19e3f9jsnb4175e2003ee',
-		'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
-	}
-};
+
