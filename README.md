@@ -1,4 +1,4 @@
-# i-made-you-a-mixtape
+# I Made You A Mixtape
 
 ## Description
 
@@ -20,11 +20,23 @@ It's done when our page is responsive with a polished UI.
 It's done when we have a presentation ready to show the class. 
 It's done when we have a deployed page with a unique url. 
 
+## Application Image and Link
+
+
+
+## Authors and Acknowledgement
+
+The following students were responsible for completing this project:
+> - Chelle Wood
+> - Erin Sinclaire
+> - Jack Nelson
+> - Nicodemus Chinouya
+
 ## Technologies Used
 
 Pexel API
 
-Rapid API (Love Quiz) - https://rapidapi.com/ajith/api/love-calculator
+Rapid API (Love Quiz): https://rapidapi.com/ajith/api/love-calculator
 
 CSS Framework: https://materializecss.com/
 
@@ -43,3 +55,7 @@ Heart Tape and Boombox images: https://pixabay.com/images/
 Collage image: https://www.etsy.com/listing/859999821/90s-aesthetic-wall-collage-kit-digital?etsrc=sdt
 
 90s Background image: https://www.freepik.com/free-photos-vectors/90s-background
+
+## License
+
+Please refer to the MIT License in the repo.
