@@ -7,10 +7,22 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="./assets/css/materalize.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
     <title>I Made You a Mixtape</title>
 </head>
+<!--Background Image-->
+<style>
+    body {
+        background-image: url('assets/images/90sBackground.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+</style>
 
 <body>    
     <!-- Modal Structure -->
@@ -34,30 +46,21 @@
     </div>
 <!--Nav Bar-->
     <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="assets/images/mixtape_sm.jpg"></a>
-            <ul class="right hide-on-med-and-down">
-    <!--Just an idea on how to use the Links...we could also remove them-->
-                <li><a href="#">Take the Love Quiz</a></li>
-            </ul>
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Link</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
+        <div class="nav-wrapper container">
     </nav>
 
 <!--Hero Banner-->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <br><br>
-            <h1 class="header center orange-text">I Made You A Mixtape</h1>
+            <h1 class="header center orange-text" style="font-family: 'Honk', system-ui;">I Made You A Mixtape</h1>
             <div class="row center">
                 <h5 class="header col s12 light">For Valentine's Day</h5>
             </div>
             <div class="row center">
                 <!--Placeholder for link = #-->
-                <a href="#" id="download-button"
-                    class="btn-large waves-effect waves-light orange">Play Some Songs</a>
+                <a href="https://www.amazon.com/s?k=90s+nostalgia&crid=1UTYF5BPLVRR3&sprefix=90s+nost%2Caps%2C161&ref=nb_sb_ss_ts-doa-p_1_8" id="download-button" target="_blank"
+                    class="btn-large waves-effect waves-light orange">Get Them Something!</a>
             </div>
             <br><br>
         </div>
@@ -71,10 +74,9 @@
                 <!--   Img API Container   -->
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">
-                            <!--Img Icon here-->
+                        <h2 class="center light-blue-text"><i class="material-icons"><img src="assets/images/collage.png">
                         </i></h2>
-                        <h5 class="center">Maybe Image API is contained here</h5>
+                        <h5 class="center">Inspiration</h5>
                     <!--Placeholder for actual content-->
                         <p class="light">Can we make a button for the user to scroll through pics?</p>
                     </div>
@@ -84,28 +86,28 @@
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h2 class="center light-blue-text"><i class="material-icons">
-                        <!--Tape Icon here-->
+                        <img src="assets/images/boombox.png">
                         </i></h2>
-                        <h5 class="center">Maybe the Songs go here</h5>
+                        <h5 class="center">Listen</h5>
                         <p class="light">Jacks Buttons:</p>
                         <span class="card-title">sound board test</span>
                         <p>gatorade</p>
-                            <a class="btn" onclick="soundOne()" id="song-one">All the Small Things</a>
-                            <a class="btn" onclick="soundTwo()" id="song-two">Say Yes</a>
-                            <a class="btn" onclick="soundThree()" id="song-three">Iris</a>
-                            <a class="btn" onclick="soundFour()" id="song-four">I'll Stand By You</a>
-                            <a class="btn" onclick="soundFive()" id="song-five">Can't Hardly Wait</a>
-                            <a class="btn" onclick="soundSix()" id="song-six">Stay</a>
-                            <a class="btn" onclick="soundSeven()" id="song-seven">All Star</a>
-                            <a class="btn" onclick="soundEight()" id="song-eight">What Is Love?</a>
-                            <a class="btn" onclick="soundNine()" id="song-nine">Everlong</a>
+                            <a class="btn light-blue lighten-1" onclick="soundOne()" id="song-one">All the Small Things</a>
+                            <a class="btn light-blue lighten-1" onclick="soundTwo()" id="song-two">Say Yes</a>
+                            <a class="btn light-blue lighten-1" onclick="soundThree()" id="song-three">Iris</a>
+                            <a class="btn light-blue lighten-1" onclick="soundFour()" id="song-four">I'll Stand By You</a>
+                            <a class="btn light-blue lighten-1" onclick="soundFive()" id="song-five">Can't Hardly Wait</a>
+                            <a class="btn light-blue lighten-1" onclick="soundSix()" id="song-six">Stay</a>
+                            <a class="btn light-blue lighten-1" onclick="soundSeven()" id="song-seven">All Star</a>
+                            <a class="btn light-blue lighten-1" onclick="soundEight()" id="song-eight">What Is Love?</a>
+                            <a class="btn light-blue lighten-1" onclick="soundNine()" id="song-nine">Everlong</a>
                     </div>
                 </div>
                 <!--Love Quiz API-->
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h2 class="center light-blue-text"><i class="material-icons">
-                            <!--Heart Icon here-->
+                            <img class="loveQuizIcon" src="assets/images/hearttapes.png">
                         </i></h2>
                         <h5 class="center">Try the Love Quiz</h5>
                         <form class="light" id="lovequiz">
@@ -113,8 +115,8 @@
                             <input type="text" id="name" name="name" required>
                             <p>What's your crush's name?</p>
                             <input type="text" id="crush" name="crush" required>
-                            <button class="btn" id="loveButton" type="submit">Calculate Love</button>
-                            <button class="btn" id="clear" type="reset">Clear</button>
+                            <button class="btn light-blue lighten-1" id="loveButton" type="submit">Calculate Love</button>
+                            <button class="btn light-blue lighten-1" id="clear" type="reset">Clear</button>
                             <p id="result"></p>
                         </form>
                     </div>
@@ -129,26 +131,10 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Links to fun websites?</h5>
-                    <p class="grey-text text-lighten-4">Some 90s stuff</p>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Settings</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Connect</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
+                    <h5 class="white-text">Blast to the Past</h5>
+                    <p class="grey-text text-lighten-4">Remember <a class="purple-text text-darken-1" href="https://www.spacejam.com/1996/">Space Jam</a>?</p>
+                    <p class="grey-text text-lighten-4">What about <a class="purple-text text-darken-1" href="https://en.wikipedia.org/wiki/Tamagotchi">Tamagotchi</a>?</p>
+                    <p class="grey-text text-lighten-4">Did you have a <a  class="purple-text text-darken-1" href="https://en.wikipedia.org/wiki/Trapper_Keeper">Trapper Keeper</a>?</p>
                 </div>
             </div>
         </div>
@@ -178,7 +164,7 @@
         });
     </script>
     <!--If I remove the following scripts, the app works for me-->
-    <script src="assets/songs/blink-182 - All The Small Things (Official Music Video).mp3"></script>
+    <!-- <script src="assets/songs/blink-182 - All The Small Things (Official Music Video).mp3"></script>
     <script src="assets/songs/Elliott Smith - Say Yes (from EitherOr).mp3"></script>
     <script src="assets/songs/Goo Goo Dolls  Iris [Official Music Video] [4K Remaster].mp3"></script>
     <script src="assets/songs/I'll Stand by You.mp3"></script>
@@ -186,7 +172,7 @@
     <script src="assets/songs/Lisa Loeb _Stay (I Missed You)_ Music Video.mp3"></script>
     <script src="assets/songs/Smash Mouth - All Star (Official Music Video).mp3"></script>
     <script src="assets/songs/Haddaway - What Is Love [Official].mp3"></script>
-    <script src="assets/songs/Foo Fighters - Everlong.mp3"></script>
+    <script src="assets/songs/Foo Fighters - Everlong.mp3"></script> -->
     
     
 </body> 

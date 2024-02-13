@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #49297e;
+}
+
 .icon-block {
     padding: 0 15px;
 }
@@ -14,3 +19,13 @@
     font-size: inherit;
 }
 
+h2 img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn {
+    margin-bottom: 8px;
+}
