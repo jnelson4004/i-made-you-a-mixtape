@@ -1,24 +1,14 @@
-# I Made You A Mixtape
+# I Made You A Mixtape, A Valentine's Moodboard from the 90s
 
 ## Description
 
+
+
 Elevator pitch-type description can go here. Ideas for future development. What we learned. What we would change. Challenges. 
 
-## User Story
+## Usage
 
 As a developer, I’m tasked with creating a unique Valentine’s Day project. The goal is to build a multisensory experience where users can discover music recommendations matching the mood of selected 90s-themed pictures, providing a nostalgic and harmonious audio-visual celebration for couples.
-
-## Acceptance Criteria
-
-It's done when we have two working APIs implemented into our site.
-It's done when we use client-side storage to store the names and results of the Love Quiz.
-It's done when we have one modal with instructions for the site.  
-It's done when we employ a CSS Framework (other than Bootstrap).
-It's done when our app loads with no bugs.
-It's done when our app is interactive.
-It's done when our page is responsive with a polished UI. 
-It's done when we have a presentation ready to show the class. 
-It's done when we have a deployed page with a unique url. 
 
 ## Application Image and Link
 
