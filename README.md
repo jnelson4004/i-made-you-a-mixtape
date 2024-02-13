@@ -22,7 +22,11 @@ It's done when we have a deployed page with a unique url.
 
 ## Application Image and Link
 
+The following image shows the web application's appearance. You can also go to the web application by clicking the following link. https://jnelson4004.github.io/i-made-you-a-mixtape
 
+![The webpage includes a modal with instructions, a header link to go shopping, moodboard with rotating themed images, music, a love calculator, and links to 90s nostalgia items.](./assets/images/screenshot-with-modal-foreground.png)
+
+![This is the webpage without the modal showing.](./assets/images/screenshot-with-no-modal.png) 
 
 ## Authors and Acknowledgement
 
