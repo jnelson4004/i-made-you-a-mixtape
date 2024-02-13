@@ -1,137 +1,45 @@
 # i-made-you-a-mixtape
-# 07 Project 1: Interactive Front-End Application
 
-At the conclusion of each phase of this course, you’ll work with a group of your fellow students to create a **project**. A project is collaborative work among a group of developers to create an application that solves a real-world problem. Projects model the experience you’ll encounter in every development role at any company, from large multinational businesses to small startups. Coding is collaborative.
+## Description
 
-A project is a bit different from the Challenge assignments you’ve worked on so far. One of the biggest differences is that you’ll no longer build an application by yourself! This has some advantages&mdash;you won’t have to do all of the work, you can divide up duties, and you can share skills and knowledge with other developers and lean on their strengths. This can also be challenging if you’re used to working alone. Constant communication and time management are just two of the skills you’ll need to practice to make sure everyone in your group works together to complete the project. 
+Elevator pitch-type description can go here. Ideas for future development. What we learned. What we would change. Challenges. 
 
-Projects won’t provide you with a user story or acceptance criteria, because you and your group will create them once you decide which real-world problem your application will solve. This lack of constraints can be freeing in a way, because you have room to build what you want, but it also means that you have to decide what those constraints are before you can start working.
+## User Story
 
-Finally, a project requires a presentation, because you’re trying to convince an audience that it serves a purpose. Your instructional staff and fellow students are investors, and you’re pitching your creation to them&mdash;an experience that developers are required to do frequently. Your presentation is just as important as the actual project, so take it just as seriously.
+As a developer, I’m tasked with creating a unique Valentine’s Day project. The goal is to build a multisensory experience where users can discover music recommendations matching the mood of selected 90s-themed pictures, providing a nostalgic and harmonious audio-visual celebration for couples.
 
-## Project Requirements
+## Acceptance Criteria
 
-You and your group will use everything you’ve learned over the past six modules to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
+It's done when we have two working APIs implemented into our site.
+It's done when we use client-side storage to store the names and results of the Love Quiz.
+It's done when we have one modal with instructions for the site.  
+It's done when we employ a CSS Framework (other than Bootstrap).
+It's done when our app loads with no bugs.
+It's done when our app is interactive.
+It's done when our page is responsive with a polished UI. 
+It's done when we have a presentation ready to show the class. 
+It's done when we have a deployed page with a unique url. 
 
-* Use a CSS framework other than Bootstrap.
+## Technologies Used
 
-* Be deployed to GitHub Pages.
+Pexel API
 
-* Be interactive (i.e., accept and respond to user input).
+Rapid API (Love Quiz) - https://rapidapi.com/ajith/api/love-calculator
 
+CSS Framework: https://materializecss.com/
 
+HTML Template: https://materializecss.com/templates/starter-template/preview.html
 
-!! !! !! !! !! START HERE !! !! !! !! !!
+## Credits 
 
-Find the free data you will use and THEN build the site around what's available. Don't spend a lot of time coming up with an amazing idea only to find there is no free data available to build it with. Find two server-side APIs to use FIRST.
-* Use at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
+Modal tutorial: https://ampersandtutorials.com/materialize-css/open-modal-on-page-load/
 
-* Must include one modal. It does not use native browser alert, confirm, or prompt functionality.
+Celeste Bradley Moore (TA): assisted Nico with coding for the song and image and marrying them and getting images to show up. Approx lines 75-105 in html
 
-* Use client-side storage to store persistent data.
+Banner Font: fonts.google.com "Honk"
 
-* Be responsive.
+Heart Tape and Boombox images: https://pixabay.com/images/
 
-* Have a polished UI.
+Collage image: https://www.etsy.com/listing/859999821/90s-aesthetic-wall-collage-kit-digital?etsrc=sdt
 
-* Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
-AND HERE
-* Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-## Presentation Requirements
-
-Use this [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to address the following: 
-
-* Elevator pitch: a one minute description of your application
-
-* Concept: What is your user story? What was your motivation for development?
-
-* Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
-
-* Demo: Show your stuff!
-
-* Directions for Future Development
-
-* Links to the deployed application and the GitHub repository
-
-## Grading Requirements
-
-This project is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 25%
-
-* Satisfies the following code requirements:
-
-  * Application uses at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
-
-  * Application uses client-side storage to store persistent data.
-
-  * Application must have at least one modal (does not use alerts, prompts, or confirm methods).
-
-  * Application uses a CSS framework other than Bootstrap.
-
-  * Application is interactive (accepts and responds to user input)
-
-### Concept 10%
-
-* Application should be a unique and novel idea.
-
-* Your group should clearly and concisely articulate your project idea.
-
-### Deployment: 20%
-
-* Application deployed at live URL and loads with no errors.
-
-* Application GitHub URL submitted.
-
-### Repository Quality: 10%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a quality README file with description, screenshot, and link to deployed application.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application is responsive.
-
-### Presentation 10%
-
-* Your group should present using a slide deck.
-
-* Every group member should speak during the presentation.
-
-* Your presentation should follow the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing).
-
-### Collaboration 10%
-
-* There are no major disparities in the number of GitHub contributions between group members.
-
-## How to Submit Your Interactive Front-End Project
-
-**Each member of your group** is required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
-
-User chooses song
-We add meta data which triggers JS commands -- 
-
-80s and 90s
-imgur - freeAPI
-
-Have different themes, but they'll be random
+90s Background image: https://www.freepik.com/free-photos-vectors/90s-background
