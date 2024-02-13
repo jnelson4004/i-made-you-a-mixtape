@@ -80,55 +80,51 @@
     <!--Main Section Div-->
     <div class="container section row">
                 
-    <!--   Image for Moodboard   -->
-    <div class="col s12 m4">
-        <div class="icon-block">
-            <h2 class="center light-blue-text material-icons"><img src="assets/images/collage.png"></h2>
-            <h5 class="center">Inspiration</h5>
-        <!--Placeholder for actual content-->
-            <p class="light">Can we make a button for the user to scroll through pics?</p>
-        </div>
-    </div>
-
-    <!--Music Player Container-->
-    <div class="col s12 m4">
-        <div class="center icon-block">
-            <h2 class="light-blue-text"><i class="material-icons">
-            <img src="assets/images/boombox.png"></i></h2>
-            <h5 class="center">Listen</h5>
-            <br>
-                <a class="btn light-blue lighten-1" onclick="soundOne()" id="song-one">All the Small Things</a>
-                <a class="btn light-blue lighten-1" onclick="soundTwo()" id="song-two">Say Yes</a>
-                <a class="btn light-blue lighten-1" onclick="soundThree()" id="song-three">Iris</a>
-                <a class="btn light-blue lighten-1" onclick="soundFour()" id="song-four">I'll Stand By You</a>
-                <a class="btn light-blue lighten-1" onclick="soundFive()" id="song-five">Can't Hardly Wait</a>
-                <a class="btn light-blue lighten-1" onclick="soundSix()" id="song-six">Stay</a>
-                <a class="btn light-blue lighten-1" onclick="soundSeven()" id="song-seven">All Star</a>
-                <a class="btn light-blue lighten-1" onclick="soundEight()" id="song-eight">What Is Love?</a>
-                <a class="btn light-blue lighten-1" onclick="soundNine()" id="song-nine">Everlong</a>
-        </div>
-    </div>
-                <!--Love Quiz API-->
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">
-                            <img class="loveQuizIcon" src="assets/images/hearttapes.png">
-                        </i></h2>
-                        <h5 class="center">Try the Love Quiz</h5>
-                        <form class="light" id="lovequiz">
-                            <p>What's your name?</p>
-                            <input type="text" id="name" name="name" required>
-                            <p>What's your crush's name?</p>
-                            <input type="text" id="crush" name="crush" required>
-                            <button class="btn light-blue lighten-1" id="loveButton" type="submit">Calculate Love</button>
-                            <button class="btn light-blue lighten-1" id="clear" type="reset">Clear</button>
-                            <p id="result"></p>
-                        </form>
-                    </div>
-                </div>
+        <!--   Image for Moodboard   -->
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center light-blue-text material-icons"><img src="assets/images/collage.png"></h2>
+                <h5 class="center">Inspiration</h5>
+            <!--Placeholder for actual content-->
+                <p class="light">Can we make a button for the user to scroll through pics?</p>
             </div>
         </div>
-        <br><br>
+
+        <!--Music Player Container-->
+        <div class="col s12 m4">
+            <div class="center icon-block">
+                <h2 class="light-blue-text"><i class="material-icons"><img src="assets/images/boombox.png"></i></h2>
+                <h5 class="center">Listen</h5>
+                <br>
+                    <a class="btn light-blue lighten-1" onclick="soundOne()" id="song-one">All the Small Things</a>
+                    <a class="btn light-blue lighten-1" onclick="soundTwo()" id="song-two">Say Yes</a>
+                    <a class="btn light-blue lighten-1" onclick="soundThree()" id="song-three">Iris</a>
+                    <a class="btn light-blue lighten-1" onclick="soundFour()" id="song-four">I'll Stand By You</a>
+                    <a class="btn light-blue lighten-1" onclick="soundFive()" id="song-five">Can't Hardly Wait</a>
+                    <a class="btn light-blue lighten-1" onclick="soundSix()" id="song-six">Stay</a>
+                    <a class="btn light-blue lighten-1" onclick="soundSeven()" id="song-seven">All Star</a>
+                    <a class="btn light-blue lighten-1" onclick="soundEight()" id="song-eight">What Is Love?</a>
+                    <a class="btn light-blue lighten-1" onclick="soundNine()" id="song-nine">Everlong</a>
+            </div>
+        </div>
+        <!--Love Quiz API-->
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="material-icons">
+                    <img class="loveQuizIcon" src="assets/images/hearttapes.png"></i></h2>
+                <h5 class="center">Try the Love Quiz</h5>
+                    <form class="light" id="lovequiz">
+                        <p>What's your name?</p>
+                            <input type="text" id="name" name="name" required>
+                        <p>What's your crush's name?</p>
+                            <input type="text" id="crush" name="crush" required>
+                        <button class="btn light-blue lighten-1" id="loveButton" type="submit">Calculate Love</button>
+                        <button class="btn light-blue lighten-1" id="clear" type="reset">Clear</button>
+                        <p id="result"></p>
+                    </form>
+            </div>
+        </div>
+            <br><br>
     </div>
 
     <!--Footer Container -->
