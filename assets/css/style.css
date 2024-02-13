@@ -28,4 +28,5 @@ h2 img {
 
 .btn {
     margin-bottom: 8px;
+    font-family: inherit;
 }
