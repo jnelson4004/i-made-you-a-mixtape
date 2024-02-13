@@ -40,4 +40,4 @@
                 fetchAndDisplayImage();
             }, 5000);
         });
-    </script>
+    
