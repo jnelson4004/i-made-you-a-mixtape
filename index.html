@@ -17,7 +17,16 @@
     <div id="modal1" class="modal">
         <div class="modal-content">
             <h4>Time Travel to the 90's</h4>
-            <p>Lorem ipsum - how to included in here to operate the page</p>
+            <p>Do you miss the age of making a mixed tape for your boo? Do you remember phrases like
+                'Talk to the hand', 'Whatever', 'As if' or 'Oh snap!'? If you are ready to raise the roof,
+                then follow these instructions to make a mixed tape that's all that and a bag of chips!
+            </p>
+            <ul>
+                <li>❤️ Love Calculator Instructions</li>
+                <li>🎵 Song List Instructions</li>
+                <li>📹 Image List Instructions</li>
+
+            </ul>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-close waves-effect waves-green btn col-2-flat">Gettin' jiggy wit it!</a>
@@ -98,8 +107,16 @@
                         <h2 class="center light-blue-text"><i class="material-icons">
                             <!--Heart Icon here-->
                         </i></h2>
-                        <h5 class="center">Maybe the Love Quiz API goes here</h5>
-                        <p class="light">Love Quiz Container</p>
+                        <h5 class="center">Try the Love Quiz</h5>
+                        <form class="light" id="lovequiz">
+                            <p>What's your name?</p>
+                            <input type="text" id="name" name="name" required>
+                            <p>What's your crush's name?</p>
+                            <input type="text" id="crush" name="crush" required>
+                            <button class="btn" id="loveButton" type="submit">Calculate Love</button>
+                            <button class="btn" id="clear" type="reset">Clear</button>
+                            <p id="result"></p>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -145,19 +162,33 @@
     </footer>
 
     <!--  Scripts-->
+    <script src="./assets/js/script.js"></script>
+    <script src="assets/js/images.js"></script>
+    <script src="assets/js/lovequiz.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="./assets/js/materalize.js"></script>
     <script src="./assets/js/init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/js/script.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $(".modal").modal();
             $("#modal1").modal("open");
-            $("#cls").click(function() {
+            $("#cls").click(function () {
                 $("#modal1").modal("close");
             });
         });
     </script>
+    <!--If I remove the following scripts, the app works for me-->
+    <script src="assets/songs/blink-182 - All The Small Things (Official Music Video).mp3"></script>
+    <script src="assets/songs/Elliott Smith - Say Yes (from EitherOr).mp3"></script>
+    <script src="assets/songs/Goo Goo Dolls  Iris [Official Music Video] [4K Remaster].mp3"></script>
+    <script src="assets/songs/I'll Stand by You.mp3"></script>
+    <script src="assets/songs/The Replacements - Cant Hardly Wait (Official Music Video).mp3"></script>
+    <script src="assets/songs/Lisa Loeb _Stay (I Missed You)_ Music Video.mp3"></script>
+    <script src="assets/songs/Smash Mouth - All Star (Official Music Video).mp3"></script>
+    <script src="assets/songs/Haddaway - What Is Love [Official].mp3"></script>
+    <script src="assets/songs/Foo Fighters - Everlong.mp3"></script>
+    
+    
 </body> 
 </html>
