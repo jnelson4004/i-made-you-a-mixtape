@@ -2,9 +2,15 @@
 
 ## Description
 
+Step into the nostalgia of the 90s this Valentine's Day with our immersive website! Picture this: neon lights, cassette tapes, and the unmistakable charm of retro love. Our UI transports you back in time with a vibrant 90s theme, perfect for celebrating the season of love. 
 
+A moodboard reminiscent of those cherished teen magazines, filled with heartthrobs and romantic inspirations sets the scene. But that's not all - discover if you and your crush are a perfect match with our love calculator! Whether it's based on compatibility or just a touch of magic, our calculator is sure to spark excitement and anticipation. Just put in your name and your crushes name, click Match Me and see your results!
 
-Elevator pitch-type description can go here. Ideas for future development. What we learned. What we would change. Challenges. 
+And what's a trip down memory lane without music? Groove to the beats of classic 90s love songs as you explore our site, setting the mood for romance and nostalgia. Click on a song title button to start listening to your jams, and when you're ready to move onto the next song, click the same song title button to stop playing the current song.
+
+But wait, there's more! Dive into a treasure trove of vintage love with our curated collection of pictures and links to quinticential 90s shopping, showcasing iconic moments from the decade of love and longing.
+
+So why wait? Join us on a journey back to the 90s this Valentine's Day and rediscover the magic of romance, retro style! 
 
 ## Usage
 
