@@ -34,7 +34,7 @@ The following students were responsible for completing this project:
 
 ## Technologies Used
 
-Pexel API
+Pexel API: https://www.pexels.com/api/
 
 Rapid API (Love Quiz): https://rapidapi.com/ajith/api/love-calculator
 
